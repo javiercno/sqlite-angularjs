@@ -8,7 +8,7 @@ angular.module('sqliteAngularjs', [])
      */
     var BD = function(){
         var that = this;
-        that.db = openDatabase("smartFines.db","1.0","smartFines",-1);
+        that.db = openDatabase("app.db","1.0","app",-1);
     };
 
     /**
